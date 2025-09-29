@@ -1,10 +1,12 @@
+import MyCard from "./MyCard";
+
 const MyMain = () => {
     
     return (
         <>
             <main>
                 <div className="mainContainer">
-                    <h1>Qui andrà la card</h1>
+                    <MyCard />
                 </div>
             </main>
         </>
